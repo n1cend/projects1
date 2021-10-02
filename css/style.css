@@ -14,7 +14,7 @@ h1,h1,h3,h4,h5,h6{
     margin: 0;
 }
 /* intro */
-.intro{
+.intro, .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,13 +60,14 @@ h1,h1,h3,h4,h5,h6{
     font-weight: 700;
     color: white;
     text-align: center;
-    transition: 0.2s;
+    transition: background 0.2s linear;
     display: inline-block;
     vertical-align: top;
-    padding: 10px 15px;
+    padding: 8px 30px;
     text-transform: uppercase;
     text-decoration: none;
     border: 3px solid #ffffff;
+    margin-left: 15px;
 }
 .btn:hover{
     background-color: white;
@@ -136,4 +137,82 @@ h1,h1,h3,h4,h5,h6{
 }
 .nav_link:hover:after{
     opacity: 1;
+}
+/*футер*/
+
+
+
+.main {
+    background: white no-repeat center;
+}
+.container1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about{
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    color: black;
+    width: 50%;
+}
+.text1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    width: 52%;
+}
+
+#anime {
+    margin-left: 800px;
+    margin-top: -20000px;
+    z-index: 9999;
+}
+.footer{
+    padding-top: 65px;
+    background-color: #f8f8f8;
+
+}
+.footer_logo{
+    font-size: 46px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+.footer_text{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.footer_social_header{
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer_social_header b{
+    font-size: 18px;
+}
+.footer_social_content{
+    padding-top: 15px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+}
+.footer_social_content a{
+    color: cyan;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+.footer_social_content img{
+    width: 25px;
+    height: 25px;
+
+}
+.footer_social{
+    margin-bottom: 25px;
 }
